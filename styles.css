@@ -1,0 +1,35 @@
+body {
+    background-color: #363636;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1, h2 {
+    color: #ffd036;
+    text-align: center;
+    margin-top: 2em;
+}
+
+p {
+    color: #fff;
+}
+
+span {
+    color: #ffd036;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 15rem;
+}
+
+@media screen and (max-width: 1200px){
+    main {
+        margin:  2rem 3rem;
+    }
+}
+
